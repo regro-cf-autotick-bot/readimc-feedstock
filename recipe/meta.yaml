@@ -1,5 +1,5 @@
 {% set name = "readimc" %}
-{% set version = "0.6.1" %}
+{% set version = "0.6.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/readimc-{{ version }}.tar.gz
-  sha256: 85117e62e790dc5d3315a3dbf63ad657c20e9238b5206936f00411ca99352a00
+  sha256: cd2353b4b6fe12a8c0cf266dad2a06265ae6d4ecab3192b2266f3f24ba79070c
 
 build:
   noarch: python
